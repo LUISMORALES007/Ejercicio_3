@@ -18,7 +18,16 @@ public class Main{
                      System.out.println("Este ejercicio le va a permitir determinar si un numero ingresado es primo o no");
                      System.out.println("Digite un numero");
                      numero = digito.nextInt();
+                     if(numero % dos == 0){
+                          
+                            System.out.println("El numero no es primo");
+                                  
 
+                         }else{
+                            
+                             System.out.println("El numero que digito es primo");
+
+                        }
 
                          
 
