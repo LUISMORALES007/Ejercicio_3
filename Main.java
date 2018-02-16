@@ -10,8 +10,10 @@ public class Main{
                 
                 int numero;
                 int dos= 2;
+                int op;
 
-                    
+                  do{  
+                  
                   System.out.println("Ejercicio # 3");
                   System.out.println("");
 
@@ -28,9 +30,13 @@ public class Main{
                              System.out.println("El numero que digito es primo");
 
                         }
-
-                         
-
+                        
+                        System.out.println("Desea verificar otro numero?");
+                        System.out.println("1.Si");
+                        System.out.println("2.No");
+                        op= digito.nextInt();
+                  
+                  }while(op!= 2)
         }
 
 
